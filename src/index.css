@@ -31,7 +31,7 @@
 ===========================*/
 body{
     background-color: #fff;
-    font-family: var(--funtePrincipal);
+    font-family: var(--font-primary);
     font-size: 1.6rem;
 }
 
