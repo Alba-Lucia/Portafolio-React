@@ -4,12 +4,15 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { About } from '../components/About'
 import { Hero } from '../components/Hero/Hero'
+import { Wave } from '../components/Hero/Wave'
+
 
 export default function Home() {
   return (
     <div>
-      <div className="container m-4">
-        <Hero />
+      
+      <div className="">
+          <Hero />
         <About/>
     </div>
 
