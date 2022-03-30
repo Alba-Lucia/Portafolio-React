@@ -27,14 +27,14 @@
     margin-top: -3px;
 }
 
-.header__wave-desktop{
+.header__wave--desktop{
     display: none;
 }
 @media (min-width: 768px) {
-    .header__wave-desktop{
+    .header__wave--desktop{
         display: block;
     }
-    .header__wave-movil{
+    .header__wave--movil{
         display: none;
     }
 }
