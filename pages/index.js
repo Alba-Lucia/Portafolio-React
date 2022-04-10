@@ -1,6 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+import Layout from '../components/Layout/Layout'
+
 import styles from '../styles/Home.module.css'
 import { About } from '../components/About'
 import { Hero } from '../components/Hero/Hero'
@@ -9,22 +10,29 @@ import { Wave } from '../components/Hero/Wave'
 
 export default function Home() {
   return (
-    <div>
-      
-      <div className="">
+  <>
+    
+
+    <div >
+
+      <div className="">  
+          <Layout/>
+    
           <Hero />
-        <About/>
+          
+          <About/>
     </div>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by Miss Gonzalez
-        </a>
+        </Link>
       </footer>
     </div>
+  </>
   )
 }

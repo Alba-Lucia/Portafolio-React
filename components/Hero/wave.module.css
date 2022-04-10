@@ -1,6 +1,23 @@
-.header__wave-desktop{
-    background-color: red;
-    margin-top: 90px;
+.wave__contentDesktop{
+    margin-top: -.1rem;
+    overflow: hidden;
 
 }
 
+.header__waveDesktop{
+    width: 130%;
+    margin-left: -9rem;
+}
+
+.header__waveDesktop{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .header__waveDesktop{
+        display: block;
+    }
+    .header__waveMovil{
+        display: none;
+    }
+}

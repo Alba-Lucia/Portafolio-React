@@ -1,10 +1,10 @@
 import React from 'react'
-import './wave.module.css'
+import styles from './wave.module.css'
 
 export const Wave = () => {
   return (
-    <div className='wave__content--desktop'>
-        <div className="header__wave--desktop">
+    <div className={styles.wave__contentDesktop}>
+        <div className={styles.header__waveDesktop}>
           <div className="header__wave" 
             style={{height: '150px', overflow:'hidden'}}>
               <svg viewBox="0 0 500 150" preserveAspectRatio="none" 
@@ -16,7 +16,7 @@ export const Wave = () => {
           </div>
         </div>
 
-          <div className="header__wave--movil"> 
+        <div className={styles.header__waveMovil}>
            <div className="header__wave"
             style={{height: '150px', overflow: 'hidden'}} >
               <svg viewBox="0 0 500 150" preserveAspectRatio="none" 

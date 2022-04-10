@@ -1,6 +1,11 @@
 @import '../components/Hero/hero.css';
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 :root{
   --font-primary: 'Inter', sans-serif;
   --font-secundary: 'Antic Slab', serif;
@@ -28,11 +33,11 @@ body {
 }
 
 a, p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 @media (min-width: 768px){
   a, p{
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -41,20 +46,23 @@ a {
   text-decoration: none;
 }
 
+
 h1{
-  font-size: 2rem;
+  font-size: 3rem;
 }
-
-
 @media (min-width: 768px){
   h1{
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 1024px){
   h1{
-    font-size: 5rem;
+    font-size: 6.4rem;
   }
+}
+
+.container {
+  padding: 0 1rem;
 }
 
 .content__dark{
