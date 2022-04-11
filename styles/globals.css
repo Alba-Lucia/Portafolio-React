@@ -61,10 +61,6 @@ h1{
   }
 }
 
-.container {
-  padding: 0 1rem;
-}
-
 .content__dark{
   background-color: var(--color-background-dark);
   color: var(--color-white);

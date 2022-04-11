@@ -3,25 +3,17 @@ import Link from 'next/link'
 import Layout from '../components/Layout/Layout'
 
 import styles from '../styles/Home.module.css'
-import { About } from '../components/About'
-import { Hero } from '../components/Hero/Hero'
-import { Wave } from '../components/Hero/Wave'
-
+import Hero from '../components/Hero/Hero'
+import About from '../components/About/About'
 
 export default function Home() {
-  return (
-  <>
-    
-
+  return (    
     <div >
-
-      <div className="">  
-          <Layout/>
+      <Layout/>
     
-          <Hero />
+      <Hero />
           
-          <About/>
-    </div>
+      <About/>
 
       <footer className={styles.footer}>
         <Link
@@ -33,6 +25,5 @@ export default function Home() {
         </Link>
       </footer>
     </div>
-  </>
   )
 }

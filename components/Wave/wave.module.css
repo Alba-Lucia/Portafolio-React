@@ -1,12 +1,35 @@
+/*** Wave ***/
+.header__wave{
+    height: 150px;
+    overflow: hidden;
+}
+
+.header__wave svg{
+    height: 100%;
+    width: 100%;
+}
+
+.header__wave path{
+    stroke: none;
+    fill: #132426;
+}
+
+/*----------*/
+
 .wave__contentDesktop{
     margin-top: -.1rem;
     overflow: hidden;
-
 }
 
 .header__waveDesktop{
     width: 130%;
     margin-left: -9rem;
+}
+@media (min-width: 1024px){
+    .header__waveDesktop{
+        width: 100%;
+        margin-left: 0rem;
+    }
 }
 
 .header__waveDesktop{

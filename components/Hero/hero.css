@@ -1,4 +1,4 @@
-.content__hero--blue{
+.hero__content--blue{
     margin-top: -.5rem;
 }
 
@@ -6,7 +6,7 @@
     border-right: solid 1px #fff;
 }
 
-.hero__imagen{
+.hero__image{
     display: block;
     width: 90%;
     margin: 0 auto;
@@ -14,13 +14,13 @@
     z-index: 9;
 }
 @media (min-width: 768px){
-    .hero__imagen{
+    .hero__image{
         width: 60%;
         margin-bottom: -14.5rem;
     }
 }
 @media (min-width: 1024px){
-    .hero__imagen{
+    .hero__image{
         width: 50%;
         margin-bottom: -18rem;
     }
