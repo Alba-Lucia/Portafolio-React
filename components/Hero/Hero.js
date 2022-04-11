@@ -3,7 +3,7 @@ import { Wave } from './Wave'
 
 export function Hero() {
   return (
-   <div className="content__hero--blue mb-4">
+   <div className="hero__content--blue mb-4">
       <div className="content__dark py-4">
         <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
           <div className="order-md-1 ">
