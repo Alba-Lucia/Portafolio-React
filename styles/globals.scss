@@ -1,0 +1,52 @@
+@import '../components/Hero/hero.module.scss';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "mixins";
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-primary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, p{
+  font-size: 1.6rem;
+
+  @include md{
+    font-size: 1.8rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+h1{
+  font-size: 3rem;
+
+  @include md{
+      font-size: 5rem;
+  }
+
+  @include lg{
+        font-size: 6.4rem;
+  }
+}
+
+
+.content__dark{
+  background-color: $color-background-dark;
+  color: $color-white;
+}
+

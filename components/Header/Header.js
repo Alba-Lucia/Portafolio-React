@@ -1,4 +1,4 @@
-import styles from './header.module.css'
+import styles from './header.module.scss'
 import Link from 'next/dist/client/link'
 
 const Header = () => {

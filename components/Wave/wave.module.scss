@@ -1,46 +1,46 @@
 /*** Wave ***/
-.header__wave{
+.wave__header{
     height: 150px;
     overflow: hidden;
-}
 
-.header__wave svg{
-    height: 100%;
-    width: 100%;
-}
-
-.header__wave path{
-    stroke: none;
-    fill: #132426;
+    svg{
+        height: 100%;
+        width: 100%;
+    }
+    
+    path{
+        stroke: none;
+        fill: #132426;
+    }
 }
 
 /*----------*/
 
-.wave__contentDesktop{
+.wave__content{
     margin-top: -.1rem;
     overflow: hidden;
 }
 
-.header__waveDesktop{
+.wave__desktop{
     width: 130%;
     margin-left: -9rem;
 }
 @media (min-width: 1024px){
-    .header__waveDesktop{
+    .wave__desktop{
         width: 100%;
         margin-left: 0rem;
     }
 }
 
-.header__waveDesktop{
+.wave__desktop{
     display: none;
 }
 
 @media (min-width: 768px) {
-    .header__waveDesktop{
+    .wave__desktop{
         display: block;
     }
-    .header__waveMovil{
+    .wave__movil{
         display: none;
     }
 }

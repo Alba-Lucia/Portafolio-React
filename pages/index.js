@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout/Layout'
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 
