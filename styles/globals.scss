@@ -18,6 +18,12 @@ body {
   box-sizing: border-box;
 }
 
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 a, p{
   font-size: 1.6rem;
 
@@ -44,8 +50,13 @@ h1{
   }
 }
 
+[class$="__container"]{
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
 
-.content__dark{
+.container__dark{
   background-color: $color-background-dark;
   color: $color-white;
 }

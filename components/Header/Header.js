@@ -3,8 +3,8 @@ import Link from 'next/dist/client/link'
 
 const Header = () => {
   return (
-    <header className={styles.container}>
-        <div className='container'>
+    <header className="container__dark">
+        <div className='header__container'>
             <nav className={styles.navbar_content}>
               <Link href="/">Home</Link>
               <Link href="/cv">CV</Link>
