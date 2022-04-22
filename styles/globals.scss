@@ -50,6 +50,20 @@ h1{
   }
 }
 
+h2{
+  font-size: 5rem;
+}
+
+h3{
+  font-size: 4rem;
+}
+
+.container{
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
 [class$="__container"]{
   max-width: 140rem;
   width: 90%;
@@ -61,3 +75,6 @@ h1{
   color: $color-white;
 }
 
+.seccion{
+  height: 20vh;
+}

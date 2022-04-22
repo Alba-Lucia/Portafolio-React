@@ -1,40 +1,43 @@
 @import "/styles/mixins";
 
-.hero__content_blue{
+.hero{
     margin-top: -.5rem;
-}
 
-.hero {
-    border-right: solid 1px #fff;
+    &__text{
+        border-right: solid .3rem #fff;
+        margin-bottom: 4rem;
+        
+            @include md{
+                margin-bottom: 0;
+            }
 
-    margin-bottom: 4rem;
-
-    @include md{
-        margin-bottom: 0;
-    }
-}
-
-.hero__image{
-    display: block;
-    width: 90%;
-    margin-bottom: -12rem;
-    z-index: 9;
+            p{
+                font-size: 2rem;
     
-    @include md{
-        width: 60%;
-        margin-bottom: -16rem;
+                @include md{
+                    font-size: 3rem;
+                }
+            }
     }
-    
-    @include lg{
-        width: 50%;
-        margin-bottom: -20rem;
+
+    &__image{
+        display: block;
+        width: 90%;
+        margin-bottom: -12rem;
+        z-index: 9;
+        
+        @include md{
+            width: 60%;
+            margin-bottom: -18rem;
+        }
+        
+        @include lg{
+            width: 50%;
+            margin-bottom: -20rem;
+        }
     }
 }
 
-.hero__text p{
-    font-size: 1.8rem;
 
-    @include md{
-        font-size: 3rem;
-    }
-}
+
+

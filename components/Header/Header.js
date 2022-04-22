@@ -3,9 +3,9 @@ import Link from 'next/dist/client/link'
 
 const Header = () => {
   return (
-    <header className="container__dark">
-        <div className='header__container'>
-            <nav className={styles.navbar_content}>
+    <header className=" header container__dark">
+        <div className='container'>
+            <nav className={styles.header__navbar}>
               <Link href="/">Home</Link>
               <Link href="/cv">CV</Link>
               <Link href="/contact">Contact</Link>

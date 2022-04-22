@@ -1,46 +1,47 @@
-/*** Wave ***/
-.wave__header{
-    height: 150px;
-    overflow: hidden;
+@import "/styles/mixins";
 
-    svg{
-        height: 100%;
-        width: 100%;
-    }
-    
-    path{
-        stroke: none;
-        fill: #132426;
-    }
-}
-
-/*----------*/
-
-.wave__content{
+.wave{
     margin-top: -.1rem;
     overflow: hidden;
-}
 
-.wave__desktop{
-    width: 130%;
-    margin-left: -9rem;
-}
-@media (min-width: 1024px){
-    .wave__desktop{
-        width: 100%;
-        margin-left: 0rem;
+    &__header{
+        height: 150px;
+        overflow: hidden;
+
+        svg{
+            height: 100%;
+            width: 100%;
+        }
+        
+        path{
+            stroke: none;
+            fill: #132426;
+        }
     }
-}
 
-.wave__desktop{
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .wave__desktop{
-        display: block;
-    }
-    .wave__movil{
+    &__desktop{
+        width: 130%;
+        margin-left: -9rem;
         display: none;
+
+        @include md {
+            display: block;
+        }
+
+        @include lg{
+            width: 100%;
+            margin-left: 0rem;
+        }
+    }
+
+    @include md {
+        &__mobile{
+            display: none;
+        }
     }
 }
+
+
+
+
+

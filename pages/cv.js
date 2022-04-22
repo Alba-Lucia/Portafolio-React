@@ -2,10 +2,10 @@ import Layout from '../components/Layout/Layout'
 
 const CV = () => {
     return (
-       <Layout 
-          page="CV"
+      <Layout 
+         page="CV"
        >
-          <h1>Fron CV</h1>
+         <div className='seccion'></div>
       </Layout>
     )
   }
