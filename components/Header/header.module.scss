@@ -1,5 +1,9 @@
 @import "/styles/mixins";
 
+.header{
+    display: none;
+}
+
 .header__navbar{
     display: flex;
     gap: 1.5rem;

@@ -5,7 +5,7 @@ const Contact = () => {
        <Layout 
           page="Contact"
        >
-            <div className='seccion'></div>
+            <div className='section'></div>
       </Layout>
     )
   }

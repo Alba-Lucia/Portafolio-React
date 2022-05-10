@@ -5,7 +5,7 @@ const Portfolio = () => {
        <Layout 
           page="Portfolio"
        >
-            <h1 className='seccion'></h1>
+            <h1 className='section'></h1>
       </Layout>
     )
   }

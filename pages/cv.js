@@ -5,7 +5,7 @@ const CV = () => {
       <Layout 
          page="CV"
        >
-         <div className='seccion'></div>
+         <div className='section'></div>
       </Layout>
     )
   }
