@@ -46,16 +46,32 @@ h1{
   }
 
   @include lg{
-        font-size: 6.4rem;
+        font-size: 7rem;
   }
 }
 
 h2{
-  font-size: 5rem;
+  font-size: 3rem;
+
+  @include md{
+    font-size: 4rem;
+  }
+
+  @include lg{
+    font-size: 6rem;
+  }
 }
 
 h3{
-  font-size: 4rem;
+  font-size: 2.5rem;
+
+  @include md{
+    font-size: 3.5rem;
+  }
+
+  @include lg{
+    font-size: 5rem;
+  }
 }
 
 .container{
@@ -71,10 +87,22 @@ h3{
 }
 
 .container__dark{
-  background-color: $color-background-dark;
+  background-color: $color-dark;
   color: $color-white;
 }
 
 .section{
   height: 20vh;
+}
+
+.calendly-inline-widget {
+  min-width: 320px;
+    height: 450px;
+}
+
+@media (max-width: 768px){
+  .calendly-inline-widget{
+    min-width: 25rem !important;
+    height: 35rem !important;
+  }
 }
