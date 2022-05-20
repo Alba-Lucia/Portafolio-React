@@ -1,12 +1,17 @@
+import Footer from '../components/Footer/Footer'
 import Layout from '../components/Layout/Layout'
 
 const CV = () => {
     return (
-      <Layout 
-         page="CV"
-       >
-         <div className='section'></div>
-      </Layout>
+      <div>
+        <Layout 
+          page="CV"
+        >
+          <div className='section'></div>
+        </Layout>
+
+        <Footer/>
+      </div>
     )
   }
 

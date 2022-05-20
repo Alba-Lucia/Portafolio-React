@@ -1,12 +1,17 @@
+import Footer from '../components/Footer/Footer'
 import Layout from '../components/Layout/Layout'
 
 const Portfolio = () => {
     return (
-       <Layout 
+      <div>
+        <Layout 
           page="Portfolio"
-       >
-            <h1 className='section'></h1>
-      </Layout>
+        >
+          <h1 className='section'></h1>
+        </Layout>
+
+        <Footer/>
+      </div>
     )
   }
 

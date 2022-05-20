@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={styles.hero}>
          <div className="container__dark py-4">
            <div className="container">
-              <div className=" d-flex flex-column flex-md-row justify-content-between align-items-center py-5">
+              <div className=" d-flex flex-column flex-md-row justify-content-between align-items-center py-md-5">
                 <div className="order-md-1 ">
                   <div className={styles.hero__text}>
                     <div className="hero__text--content pe-4 text-end w-100">
