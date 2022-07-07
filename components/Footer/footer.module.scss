@@ -6,8 +6,6 @@
 
     &__content{
         padding: 6rem 0;
-        display: flex;
-        flex-direction: column;
         gap: 6rem;
 
         @include sm{
@@ -21,19 +19,26 @@
       margin-bottom: 2rem;
     }
 
+    &__button{
+      display: block;
+      margin: 2rem auto;
+      padding: 1rem 3rem;
+      background: $color-pink;
+      border: none;
+      color: $color-white;
+      border-radius: .5rem;
+
+      &:hover{
+        color: $color-white;
+        background: #e34f84;
+      }
+    }
+
     &__text{
       display: flex;
+      justify-content: center;
+      justify-content: center;
       width: 100%;
-
-      @include md{
-        flex-direction: column;
-      }
-
-        &_container{
-          display: flex;
-          flex-direction: column;
-          gap: 3rem;
-        }
 
         &_p{
           color: $color-white;
@@ -43,6 +48,7 @@
         &_icon{
           display: flex;
           align-items: center;
+          justify-content: center;
           gap: 2rem;
           padding: .5rem;
     

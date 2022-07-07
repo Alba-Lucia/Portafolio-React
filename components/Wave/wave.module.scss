@@ -15,7 +15,8 @@
         
         path{
             stroke: none;
-            fill: #132426;
+            fill: #132426 !important;
+            background-color: #132426;
         }
     }
 
@@ -40,6 +41,16 @@
         }
     }
 }
+
+.wave_wave__header__j1jJX path{
+    fill: #132426;
+    background-color: #132426;
+  }
+  
+  .wave_wave__header path {
+    fill: #132426;
+    background-color: #132426;
+  }
 
 
 
