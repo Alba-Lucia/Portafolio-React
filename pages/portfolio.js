@@ -1,13 +1,23 @@
 import Layout from '../components/Layout/Layout'
+import HeroPortfolio from '../components/Portfolio/HeroPortfolio/HeroPortfolio'
+import PortfolioProyects  from '../components/Portfolio/PortfolioProyects/PortfolioProyects '
+import Portfolio from '../components/Portfolio/Prueba/Portfolio'
 
-const Portfolio = () => {
+const Portfolios = () => {
     return (
-       <Layout 
+      <div>
+
+        <Layout 
           page="Portfolio"
-       >
-            <h1 className='section'></h1>
-      </Layout>
+        >
+          <HeroPortfolio/>
+
+          <Portfolio/>
+
+        </Layout>
+
+      </div>
     )
   }
 
-export default Portfolio
+export default Portfolios

@@ -3,9 +3,17 @@
 .hero{
     margin-top: -.5rem;
 
+    &__name{
+        // margin-bottom: 3rem ;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+
     &__text{
         border-right: solid .3rem #fff;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
         
             @include md{
                 margin-bottom: 0;
@@ -13,12 +21,20 @@
 
             p{
                 font-size: 2rem;
+                margin: 0;
     
                 @include md{
                     font-size: 3rem;
                 }
             }
     }
+
+    &__button{
+
+       
+        
+    }
+   
 
     &__image{
         display: block;
@@ -27,13 +43,14 @@
         z-index: 9;
         
         @include md{
-            width: 60%;
+            width: 50%;
             margin-bottom: -18rem;
         }
         
         @include lg{
-            width: 50%;
+            width: 40%;
             margin-bottom: -20rem;
+            margin-left: 3rem;
         }
     }
 }

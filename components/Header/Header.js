@@ -6,10 +6,10 @@ const Header = () => {
     <header className=" header container__dark">
         <div className='container'>
             <nav className={styles.header__navbar}>
-              <Link href="/">Home</Link>
-              <Link href="/cv">CV</Link>
-              <Link href="/contact">Contact</Link>
-              <Link href="/portfolio">Portfolio</Link>
+              <Link href="/">Inicio</Link>
+              <Link href="/portfolio">Portafolio</Link>
+              {/* <Link href="/canva">CV</Link> */}
+              {/* <Link href="/contact">Contacto</Link> */}
             </nav>
         </div>
     </header>

@@ -1,0 +1,55 @@
+@import "/styles/mixins";
+
+.entrada{
+
+    &__title{
+        text-align: center;
+        color: $color-pink;
+        margin-top: 8rem;
+        @include md{
+            margin-top: 12rem;
+        }
+    }
+
+    &__container{
+        display: grid;
+        gap: 3.5rem;
+
+            @include sm{
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @include lg{
+                grid-template-columns: repeat(3, 1fr);
+            }
+    }
+
+   &__content{
+    padding: 1rem;
+    margin: 0 auto;
+   }
+
+    &__image{
+        background: $color-blue;
+        padding: 2rem;
+        border-radius: .7rem;
+        width: 100%;
+
+        @include lg{
+            width: 100%;
+        }
+    }
+
+    &__text{
+        padding: 1.5rem 3rem;
+    }
+
+    &__name{
+        font-weight: 700;
+        color: $color-dark;
+    }
+
+    &__description{
+        font-size: 1.8rem;
+    }
+}

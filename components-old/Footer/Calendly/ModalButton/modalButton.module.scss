@@ -1,0 +1,40 @@
+@import "/styles/mixins";
+
+.modalButton{
+
+    &__link{
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: none;
+        border-top: .1rem solid #ffffff26;
+        border-bottom: .1rem solid #ffffff26;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+        color: $color-white;
+        cursor: pointer;
+        &:hover{
+            color: $color-cyan;
+        }
+    }
+
+    &__image_calendar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__calendar, &__arrow{
+        height: 3rem;
+        width: auto;
+    }
+
+    &__text{
+        margin: 0;
+    }
+}
+
