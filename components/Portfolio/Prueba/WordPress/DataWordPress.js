@@ -17,7 +17,7 @@ const DataWordPress =
         description: 'Implementacion en WordPress'
     },
     {
-        id:2,
+        id:3,
         link: "https://waseskun.net/",
         img: "/img/Web-responsive-wassekun.png",
         alt: "image web Waseskun",

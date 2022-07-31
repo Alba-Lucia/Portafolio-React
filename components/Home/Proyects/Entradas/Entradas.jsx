@@ -6,6 +6,25 @@ import { FormattedMessage } from 'react-intl';
 const Entradas = () => {
   return (
     <div className={styles.entrada}>
+       <div className={styles.entrada__content}>
+            <a href="https://www.leogratis.com/">
+               <img
+                  className={styles.entrada__image}
+                  src='/img/Leo_responsive3.png' 
+                  alt='image web Waseskun'
+               />
+               <div className={styles.entrada__text}>
+                  <h5 className={styles.entrada__title}>
+                     Leo</h5>
+                  <p className={styles.entrada__description}>
+                     <FormattedMessage 
+                        id="proyects.text.leo" 
+                        defaultMessage="Text leo" 
+                     />
+                  </p>
+               </div>
+            </a>
+         </div>
         <div className={styles.entrada__content}>
            <a href="https://historiadesign.co/">
             <img
@@ -44,25 +63,6 @@ const Entradas = () => {
                </p>
             </div>
            </a>
-         </div>
-         <div className={styles.entrada__content}>
-            <a href="https://waseskun.net/">
-               <img
-                  className={styles.entrada__image}
-                  src='/img/Web-responsive-wassekun.png' 
-                  alt='image web Waseskun'
-               />
-               <div className={styles.entrada__text}>
-                  <h5 className={styles.entrada__title}>
-                     Waseskun</h5>
-                  <p className={styles.entrada__description}>
-                     <FormattedMessage 
-                        id="proyects.text.waseskun" 
-                        defaultMessage="Text Waseskun" 
-                     />
-                  </p>
-               </div>
-            </a>
          </div>
     </div>
   )

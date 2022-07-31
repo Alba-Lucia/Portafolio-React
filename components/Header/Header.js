@@ -8,12 +8,10 @@ const Header = () => {
   const router = useRouter()
   const handleChange = e => {
     // console.log("Idioma seleccionado", e.target.value)
-    router.push(router.pathname, router.pathname, {locale: e.target.value})
-
+    router.push(router.pathname, router.pathname, {locale: e.target.value}, )
+    localeStorage: ('lang', 'en')
   }
 
-  // const {asPath, locale, locales} = useRouter()
-  // const t = locale === "en" ? en : es;
   return (
     <>
       <header className="container__dark">

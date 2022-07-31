@@ -8,7 +8,7 @@ const Ilustrator = () => {
   const [items, setItems] = useState(DataIlustrator);
 
   return (
-    <div className={`container ${styles.post}`}>
+    <div className={styles.post}>
       <h2 className={styles.post__title}>Photoshop / Ilustrator</h2>
       <div className={styles.post__container}>
             {items.map((data) => {

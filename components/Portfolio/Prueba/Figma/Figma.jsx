@@ -8,7 +8,7 @@ const Figma = () => {
   const [items, setItems] = useState(DataFigma);
 
   return (
-    <div className={`container ${styles.post}`}>
+    <div className={styles.post}>
       <h2 className={styles.post__title}>Figma</h2>
       <div className={styles.post__container}>
             {items.map((data) => {

@@ -5,6 +5,7 @@ import Link from 'next/link'
 const Entradas = () => {
   return (
     <div className={styles.entrada}>
+      
          <div className={styles.entrada__content}>
            <a href="https://historiadesign.co/">
             <img
