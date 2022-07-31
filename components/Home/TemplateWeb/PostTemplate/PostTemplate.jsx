@@ -15,8 +15,7 @@ const PostTemplate = () => {
                         <h5 className={styles.postTemplate__title}>
                         </h5>
                         <p className={styles.postTemplate__description}>
-                           Diseño en HTML CSS JavaScript, ideas de diseño para paginas 
-                           de WordPress
+                           Tienda de Muebles
                         </p>
                      </div>
                   </a>
@@ -32,8 +31,7 @@ const PostTemplate = () => {
                         <h5 className={styles.postTemplate__title}>
                         </h5>
                         <p className={styles.postTemplate__description}>
-                           Diseño en HTML CSS JavaScript, ideas de diseño para paginas 
-                           de WordPress
+                           TechPRO
                         </p>
                      </div>
                   </a>
@@ -49,8 +47,7 @@ const PostTemplate = () => {
                         <h5 className={styles.postTemplate__title}>
                            </h5>
                         <p className={styles.postTemplate__description}>
-                           Diseño en HTML CSS JavaScript, ideas de diseño para paginas 
-                           de WordPress
+                           Guitar La
                         </p>
                      </div>
                   </a>

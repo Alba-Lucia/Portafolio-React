@@ -1,4 +1,33 @@
 {
-  "albaPortfolio.hero.DESCRIPTION": "Responsive web pages",
-  "albaPortfolio.hero.TITLE": "Portfolio"
+  "Menu.home": "Home",
+  "Menu.portfolio": "Portfolio",
+
+
+  "home.hero.saludo": "Hi I'm",
+  "home.hero.title": "Resume",
+
+
+  "about.title": "About me",
+  "about.text-1": "Hallo, my name is Alba Lucia Gonzalez and I am a self taught full stack web developer. I am a curious person who love to learn new technologies and to create things. I am very problem-solving oriented and I love to dig in and investigate until I find a solution.  In the development of each project I seek to implement the best practices, with efficiency, scalability and user-friendliness as priorities.",
+  "about.text-2": "My speciality is the MERN stack. Some of the technologies and libraries I use are: React js, next.js Node.js, Espress.js, MongoDB, Firebase, Redux/Context, HTML & CSS, Material UI / Sass / Bootstrap / Tailwind css / Reactstrap",
+  "about.text-3": "Im always looking for new opportunities to grow and improve my skills",
+
+  "proyects.title": "Recent Projects",
+  "proyects.text.historia": "Design created in figma, implementation in WordPress",
+  "proyects.text.cafemercado": "Implementation and design in WordPress",
+  "proyects.text.waseskun": "Design created in figma, implementation in WordPress",
+
+  
+  "template.title": "Templates with HTML CSS and JavaScript",
+  "testimonial.saludo": "Testimonial",
+
+
+  "Portafolio.title": "Portfolio",
+  "Portafolio.description": "web sites responsive",
+  "portfolio.filter.all": "All",
+
+
+  "footer.date.title": "Organise a meeting"
+
+
 }

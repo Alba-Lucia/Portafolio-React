@@ -1,11 +1,17 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
 import styles from './testimonial.module.scss'
+import { FormattedMessage } from 'react-intl';
 
 const Testimonial = () => {
       return (
         <section className={` ${styles.testimonial}`}>
-        <h2 className={styles.testimonial__title}>Testimonio</h2>
+        <h2 className={styles.testimonial__title}>
+          <FormattedMessage 
+            id="testimonial.saludo" 
+            defaultMessage="Testimonial" 
+          />
+        </h2>
         <Carousel className={styles.testimonial}>
           <Carousel.Item className={styles.testimonial__item}>
                 <img 
@@ -64,7 +70,7 @@ const Testimonial = () => {
                     recommend Alba for your future projects!{'"'}
                   </p>
                   <p className={styles.testimonial__text_name}>
-                    Café del Mercado
+                    Historia
                   </p>
                 </div>
               </Carousel.Item>

@@ -1,11 +1,13 @@
 import '../styles/globals.scss'
-import { useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { useRouter } from 'next/router';
 import { IntlProvider } from 'react-intl';
 import English from '../content/locales/en.json';
 import Spanish from '../content/locales/es.json';
 
+
 function MyApp({ Component, pageProps }) {
+
   const { locale } = useRouter();
   const [shortLocale] = locale ? locale.split('-') : ['en'];
 
@@ -29,7 +31,8 @@ function MyApp({ Component, pageProps }) {
           onError={() => null}
       >
         <Component {...pageProps} />
-      </IntlProvider>);
+      </IntlProvider>
+    );
 }
 
 export default MyApp

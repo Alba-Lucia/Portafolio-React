@@ -1,6 +1,7 @@
 import styles from './footer.module.scss'
 import { WaveFooter }  from '../Wave/Wave'
 import Image from 'next/image'
+import { FormattedMessage } from 'react-intl';
 
 const Footer = () => {
   return (
@@ -13,7 +14,12 @@ const Footer = () => {
             <div className={styles.footer__text}>
               <div className={styles.footer__text_container}>
                 <div className={styles.footer__text_location}>
-                  <h3 className={styles.footer__title}> Agenda una reunión en Workana.</h3>
+                  <h3 className={styles.footer__title}> 
+                    <FormattedMessage 
+                      id="footer.date.title" 
+                      defaultMessage="Data Footer" 
+                    />
+                  </h3>
                   <div className={styles.footer__text_icon}>
                     <img src='/icon/location.svg' alt='Icon Locacion'/>
                       <p className={styles.footer__text_p}>

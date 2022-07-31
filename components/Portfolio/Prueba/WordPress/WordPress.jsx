@@ -1,40 +1,71 @@
-import React, { useState } from 'react'
+import styles from './entradas.module.scss'
 import Image from 'next/image'
-import styles from '../portfolio.module.scss'
-import DataWordPress from './DataWordPress'
+import Link from 'next/link'
+import { FormattedMessage } from 'react-intl';
 
-const WordPress = () => {
-
-  const [items, setItems] = useState(DataWordPress);
-
+const Entradas = () => {
   return (
-    <div className={`container ${styles.post}`}>
-      <h2 className={styles.post__title}>WordPreass</h2>
-      <div className={styles.post__container}>
-            {items.map((data) => {
-               const {link, img, alt, name, description} = data;
-                return(
-                  <div key={data.id} className={styles.post__content}>
-                      <a href={link}>
-                        <div className={styles.post__image}>
-                        <Image
-                          width='500px'
-                          height='250px'
-                          src={img} 
-                          alt={alt}
-                        />
-                        </div>
-                        <div className={styles.post__text}> 
-                          <h5 className={styles.post__name}>{name}</h5>
-                          <p className={styles.post__description}>{description}</p>
-                        </div>
-                      </a>
-                  </div>
-                )
-            })}
-          </div>
+    <div className={styles.entrada}>
+        <div className={styles.entrada__content}>
+           <a href="https://historiadesign.co/">
+            <img
+               className={styles.entrada__image}
+               src='/img/Web-responsive-historia.png' 
+               alt='image web Historia'
+            />
+            <div className={styles.entrada__text}>
+               <h5 className={styles.entrada__title}>
+                  Historia
+               </h5>
+               <p className={styles.entrada__description}>
+                  <FormattedMessage 
+                     id="proyects.text.historia" 
+                     defaultMessage="Text Historia" 
+                  />
+               </p>
+            </div>
+           </a>
         </div>
+        <div className={styles.entrada__content}>
+           <a href="https://tucafedelmercado.com/">
+            <img
+               className={styles.entrada__image}
+               src='/img/Web-responsive-cafeMercado.png' 
+               alt='image web Café de Mercado'
+            />
+            <div className={styles.entrada__text}>
+               <h5 className={styles.entrada__title}>
+                  Café del Mercado</h5>
+               <p className={styles.entrada__description}>
+                  <FormattedMessage 
+                     id="proyects.text.cafemercado" 
+                     defaultMessage="Text Cafe del Mercado" 
+                  />
+               </p>
+            </div>
+           </a>
+         </div>
+         <div className={styles.entrada__content}>
+            <a href="https://waseskun.net/">
+               <img
+                  className={styles.entrada__image}
+                  src='/img/Web-responsive-wassekun.png' 
+                  alt='image web Waseskun'
+               />
+               <div className={styles.entrada__text}>
+                  <h5 className={styles.entrada__title}>
+                     Waseskun</h5>
+                  <p className={styles.entrada__description}>
+                     <FormattedMessage 
+                        id="proyects.text.waseskun" 
+                        defaultMessage="Text Waseskun" 
+                     />
+                  </p>
+               </div>
+            </a>
+         </div>
+    </div>
   )
 }
 
-export default WordPress
+export default Entradas

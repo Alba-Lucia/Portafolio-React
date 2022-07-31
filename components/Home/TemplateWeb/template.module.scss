@@ -24,11 +24,12 @@
 }
 
 .template{
-    margin-top: -.5rem;
+    margin-top: -.1rem;
+    padding: 5rem 0;
 
     &__title{
         text-align: center;
-        padding: 3rem;
+        padding: 1rem;
         color: $color-cyan;
     }
 }

@@ -3,6 +3,7 @@ import WordPress from './WordPress/WordPress'
 import styles from './portfolio.module.scss'
 import Figma from './Figma/Figma'
 import Ilustrator from './Ilustrator/Ilustrator'
+import { FormattedMessage } from 'react-intl';
 
 const Portfolio = () => {
 
@@ -27,7 +28,11 @@ const Portfolio = () => {
           <label 
             htmlFor="all"
             className={styles.select__label}
-          > All 
+          > 
+            <FormattedMessage 
+              id="portfolio.filter.all" 
+              defaultMessage="All" 
+            /> 
           </label>
         </div>
 

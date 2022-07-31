@@ -1,8 +1,11 @@
 import Head from 'next/head';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer'
+import { useRouter } from 'next/router';
+import {FormattedMessage} from "react-intl";
 
 const Layout = ({children, page}) => {
+
   return (
     <div >
       <Head>

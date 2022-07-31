@@ -1,4 +1,31 @@
 {
-  "albaPortfolio.hero.DESCRIPTION": "Paginas webs Responsives",
-  "albaPortfolio.hero.TITLE": "Portafolio"
+  "Menu.home": "Inicio",
+  "Menu.portfolio": "Portafolio",
+
+  "home.hero.saludo": "Hola soy",
+  "home.hero.title": "Curriculo",
+
+  "about.title": "Acerca de mí",
+  "about.text-1": "Hola, mi nombre es Alba Lucía González y soy desarrolladora web full stack autodidacta. Soy una persona curiosa a la que le encanta aprender nuevas tecnologías y crear. Soy una persona muy curiosa y me encanta indagar e investigar hasta encontrar una solución. En el desarrollo de cada proyecto busco implementar las mejores prácticas, teniendo como prioridades la eficiencia, la escalabilidad y la facilidad de uso.",
+  "about.text-2": "Mi especialidad es el stack MERN. Algunas de las tecnologías y bibliotecas que utilizo son: React js, next.js Node.js, Espress.js, MongoDB, Firebase, Redux / Context, HTML y CSS, Material UI / Sass / Bootstrap / Tailwind css / Reactstrap.",
+  "about.text-3": "Siempre estoy buscando de nuevas oportunidades para crecer y mejorar mis habilidades.",
+
+  "proyects.title": "Proyectos Recientes",
+  "proyects.text.historia": "Diseño creado en figma, implementacion en WordPress",
+  "proyects.text.cafemercado": "Implementacion y diseño en WordPress",
+  "proyects.text.waseskun": "Diseño creado en figma, implementacion en WordPress",
+
+  "template.title": "Plantillas con HTML CSS y JavaScript",
+  "testimonial.saludo": "Testimonio",
+
+
+  "Portafolio.title": "Portafolio",
+  "Portafolio.description": "Paginas webs Responsives",
+  "portfolio.filter.all": "Todos",
+
+
+
+  "footer.date.title": "Agenda una reunión en Workana."
+
 }
+

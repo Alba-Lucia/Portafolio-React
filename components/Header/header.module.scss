@@ -1,20 +1,64 @@
 @import "/styles/mixins";
 
 .header{
-    display: none;
-}
-
-.header__navbar{
+    padding: 4rem 0;
     display: flex;
-    gap: 1.5rem;
-    padding: 4rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
 
-    a{
-        font-size: 1.6rem;
+    &__languaje{
+        display: block;
+        gap: .6rem;
+        position: relative;
+
+        &_content{
+            display: flex;
+            gap: .6rem;
+            // border: 1px solid;
+            padding: 8px;
+        }
+
+        &_image{
+            right: 30px;
+            position: absolute;
+            left: 10%;
+            top: 30%;
+        }
+    }
+
+    &__select {
+        background: $color-dark;
         color: $color-white;
-
+        font-size: 1.6rem;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 8px;
+        padding-left: 26px;
+        
         @include md{
             font-size: 2.2rem;
         }
     }
+
+    &__option{
+        color: $color-white;
+        background: $color-dark;
+        font-size: 1.6rem;
+        width: 35px;
+        margin-top: 1rem;
+    }
+
+    &__navbar{
+        display: flex;
+        gap: 1.5rem;
+        a{
+            font-size: 1.6rem;
+            color: $color-white;
+    
+            @include md{
+                font-size: 2.2rem;
+            }
+        }
+    }
 }
+

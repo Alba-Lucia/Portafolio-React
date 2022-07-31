@@ -1,6 +1,7 @@
 import styles from './entradas.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FormattedMessage } from 'react-intl';
 
 const Entradas = () => {
   return (
@@ -14,9 +15,13 @@ const Entradas = () => {
             />
             <div className={styles.entrada__text}>
                <h5 className={styles.entrada__title}>
-                  Historia</h5>
+                  Historia
+               </h5>
                <p className={styles.entrada__description}>
-               Diseño creado en figma, implementacion en WordPress
+                  <FormattedMessage 
+                     id="proyects.text.historia" 
+                     defaultMessage="Text Historia" 
+                  />
                </p>
             </div>
            </a>
@@ -32,7 +37,10 @@ const Entradas = () => {
                <h5 className={styles.entrada__title}>
                   Café del Mercado</h5>
                <p className={styles.entrada__description}>
-               Implementacion en WordPress
+                  <FormattedMessage 
+                     id="proyects.text.cafemercado" 
+                     defaultMessage="Text Cafe del Mercado" 
+                  />
                </p>
             </div>
            </a>
@@ -48,9 +56,12 @@ const Entradas = () => {
                   <h5 className={styles.entrada__title}>
                      Waseskun</h5>
                   <p className={styles.entrada__description}>
-                  Diseño creado en figma, implementacion en WordPress
-               </p>
-            </div>
+                     <FormattedMessage 
+                        id="proyects.text.waseskun" 
+                        defaultMessage="Text Waseskun" 
+                     />
+                  </p>
+               </div>
             </a>
          </div>
     </div>
